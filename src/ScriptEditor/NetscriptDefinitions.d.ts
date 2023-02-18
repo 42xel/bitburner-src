@@ -6833,7 +6833,7 @@ export type NS = {
    * // {"_":[],"delay":0,"server":"foodnstuff","exclude":[],"help":true}
    * ```
    */
-  flags(schema: [string, string | number | boolean | string[]][]): { [key: string]: ScriptArg | string[] };
+  flags(schema: [string, string | number | boolean | string[]][]): { [key: string]: ScriptArg | string[], _: string[] };
 
   /**
    * Share your computer with your factions.
